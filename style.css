@@ -3588,7 +3588,8 @@ body {
     opacity: 1;
     visibility: visible;
     transform: none;
-    background: transparent;
+    background: transparent !important;
+    backdrop-filter: none;
     border: none;
     padding: 0;
   }
